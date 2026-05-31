@@ -54,12 +54,16 @@ export function Button({
     );
   }
 
+  const { onDrag, onDragStart, onDragEnd, onDragOver, onDragEnter, onDragLeave, onDrop, onDragCapture, onDragStartCapture, onDragEndCapture, onDragOverCapture, onDragEnterCapture, onDragLeaveCapture, onDropCapture, ...safeProps } = props;
+  void onDrag; void onDragStart; void onDragEnd; void onDragOver; void onDragEnter; void onDragLeave; void onDrop;
+  void onDragCapture; void onDragStartCapture; void onDragEndCapture; void onDragOverCapture; void onDragEnterCapture; void onDragLeaveCapture; void onDropCapture;
+
   return (
     <motion.button
       className={classes}
       whileHover={{ scale: 1.02 }}
       whileTap={{ scale: 0.98 }}
-      {...(props as React.ButtonHTMLAttributes<HTMLButtonElement>)}
+      {...(safeProps as object)}
     >
       {children}
     </motion.button>
