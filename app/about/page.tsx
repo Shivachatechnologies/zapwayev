@@ -7,32 +7,32 @@ import { Zap, Target, Heart, Globe, Award } from "lucide-react";
 
 const team = [
   {
-    name: "Akarsh Singh",
+    name: "Chandrakant Singh",
     role: "Co-founder & CEO",
-    initials: "AS",
+    initials: "CS",
     color: "from-green-500 to-teal-500",
-    bio: "Visionary entrepreneur with deep roots in clean energy and mobility. Driving ZapwayEV's mission to electrify India.",
+    bio: "Visionary leader driving ZapwayEV's mission to make EV charging effortless across India. Product thinker and builder at heart.",
   },
   {
-    name: "Chandrakant Singh",
+    name: "Aditya Pratap Singh",
     role: "Co-founder & CTO",
-    initials: "CS",
+    initials: "APS",
     color: "from-blue-500 to-purple-500",
     bio: "Full-stack architect with expertise in scalable distributed systems. Built ZapwayEV's core platform from the ground up.",
   },
   {
-    name: "Aditya Pratap Singh",
-    role: "Chief Revenue Officer",
-    initials: "APS",
+    name: "Akarsh Singh",
+    role: "Co-founder & COO",
+    initials: "AS",
     color: "from-orange-500 to-pink-500",
-    bio: "Growth strategist with a track record of scaling B2B and B2C businesses in the Indian mobility space.",
+    bio: "Operations strategist ensuring every charging station delivers a flawless, reliable experience for drivers and hosts.",
   },
   {
     name: "Himanshu Bachchis",
-    role: "VP of Operations",
+    role: "Co-founder & CMO",
     initials: "HB",
     color: "from-pink-500 to-red-500",
-    bio: "Operations leader who ensures every ZapwayEV charging point delivers a flawless driver experience across India.",
+    bio: "Brand and growth leader building ZapwayEV's community of EV drivers and hosts across India.",
   },
 ];
 
