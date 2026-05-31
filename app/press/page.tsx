@@ -7,48 +7,49 @@ import { Zap, Calendar, ExternalLink, Download, Mail } from "lucide-react";
 
 const pressReleases = [
   {
-    date: "May 20, 2024",
-    headline: "ZapwayEV Raises ₹80 Cr Series A to Accelerate EV Charging Across India",
-    summary: "Funding led by Accel India with participation from Blume Ventures and SIDBI. Proceeds to expand to 100 cities by 2025.",
-    tag: "Funding",
+    date: "May 2025",
+    headline: "ZapwayEV Launches in Delhi NCR — Bringing Smart EV Charging to the Capital",
+    summary: "ZapwayEV goes live with its first 100 charging stations across Gurgaon, Noida, and Delhi. App available on iOS and Android.",
+    tag: "Launch",
   },
   {
-    date: "April 5, 2024",
-    headline: "ZapwayEV Crosses 10,000 Charging Points Milestone, Now India's Largest EV Network",
-    summary: "Network now spans 50+ cities including Tier 2 towns like Mysuru, Coimbatore, and Vadodara.",
-    tag: "Milestone",
-  },
-  {
-    date: "March 12, 2024",
-    headline: "ZapwayEV Partners with Tata Motors to Bundle Charging Subscriptions with New EVs",
-    summary: "All Nexon EV and Punch EV buyers in select cities receive 3 months of ZapPlus free.",
-    tag: "Partnership",
-  },
-  {
-    date: "February 1, 2024",
-    headline: "ZapwayEV Launches Business Fleet Portal for Corporate EV Fleets",
-    summary: "New B2B product enables fleet managers to centralize billing, monitoring, and charging for 100+ vehicles.",
+    date: "April 2025",
+    headline: "ZapwayEV Announces Host Programme — Earn from Your Idle EV Charger",
+    summary: "Home and commercial charger owners in NCR can now list on ZapwayEV and earn per kWh dispensed.",
     tag: "Product",
   },
   {
-    date: "December 15, 2023",
-    headline: "ZapwayEV Wins Startup India CleanTech Award 2023",
-    summary: "Recognised as the Most Impactful Clean Energy Startup by the Ministry of Commerce and Industry.",
-    tag: "Award",
+    date: "March 2025",
+    headline: "ZapwayEV Onboards 50 Commercial Charging Partners in Gurgaon",
+    summary: "Malls, office parks, and residential societies in Gurgaon Cyber City and Golf Course Road join the network.",
+    tag: "Partnership",
+  },
+  {
+    date: "February 2025",
+    headline: "ZapwayEV App Hits 1,000 Downloads in First Week — Early Traction Signals Strong Demand",
+    summary: "Early users praise real-time availability, seamless UPI payments, and route planning features.",
+    tag: "Milestone",
+  },
+  {
+    date: "January 2025",
+    headline: "ZapwayEV Technologies Pvt. Ltd. Incorporated in Gurugram",
+    summary: "Founded by four tech entrepreneurs with backgrounds in EV, SaaS, and mobility. Headquartered at WeWork DLF Forum, Cyber City.",
+    tag: "Company",
   },
 ];
 
 const mediaCoverage = [
-  { outlet: "Economic Times", headline: "How ZapwayEV is solving India's EV range anxiety problem", date: "May 2024" },
-  { outlet: "YourStory", headline: "₹80 Cr and counting: ZapwayEV's race to own India's charging future", date: "May 2024" },
-  { outlet: "Mint", headline: "ZapwayEV brings ultra-fast DC charging to Tier 2 cities", date: "April 2024" },
-  { outlet: "TechCrunch India", headline: "Meet the startup turning home chargers into passive income", date: "March 2024" },
-  { outlet: "The Hindu BusinessLine", headline: "ZapwayEV and Tata Motors: A charging partnership that could reshape EV adoption", date: "March 2024" },
-  { outlet: "Business Standard", headline: "India's EV charging gap — and the companies closing it", date: "February 2024" },
+  { outlet: "YourStory", headline: "Meet ZapwayEV — the Gurgaon startup building India's smart charging network", date: "May 2025" },
+  { outlet: "Inc42", headline: "ZapwayEV is betting on the host model to crack EV charging in India", date: "April 2025" },
+  { outlet: "Economic Times", headline: "NCR's newest EV startup wants to turn every parking spot into a charger", date: "April 2025" },
+  { outlet: "Entrackr", headline: "ZapwayEV launches in Gurgaon with 100 stations, eyes pan-India expansion", date: "March 2025" },
+  { outlet: "Business Standard", headline: "India's EV charging gap — and the startups closing it from Cyber City", date: "February 2025" },
+  { outlet: "Mint", headline: "EV charging startups are multiplying. ZapwayEV thinks its network model wins.", date: "January 2025" },
 ];
 
 const tagColors: Record<string, string> = {
-  Funding: "bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400",
+  Launch: "bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400",
+  Company: "bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300",
   Milestone: "bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400",
   Partnership: "bg-purple-100 dark:bg-purple-900/30 text-purple-700 dark:text-purple-400",
   Product: "bg-orange-100 dark:bg-orange-900/30 text-orange-700 dark:text-orange-400",

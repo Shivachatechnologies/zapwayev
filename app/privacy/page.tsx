@@ -74,8 +74,8 @@ To exercise these rights, email privacy@zapwayev.in with subject "Data Rights Re
 
 ZapwayEV Technologies Pvt. Ltd.
 Attn: Data Protection Officer
-12th Floor, Prestige Tech Park, Koramangala
-Bengaluru, Karnataka 560034
+WeWork DLF Forum, Cyber City
+DLF Phase 2, Gurugram, Haryana 122002
 
 Email: privacy@zapwayev.in
 Phone: +91 80 4567 8901`,

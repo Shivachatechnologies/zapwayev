@@ -8,7 +8,7 @@ import { Zap, Calendar, Clock, ArrowRight, Tag } from "lucide-react";
 const featuredPost = {
   title: "How ZapwayEV Built a 10,000-Point Charging Network in 3 Years",
   excerpt:
-    "From a single charging station in Koramangala to a nationwide network — the story of infrastructure, partnerships, and relentless execution.",
+    "From a single charging station in Cyber City, Gurgaon to a growing network — the story of infrastructure, partnerships, and relentless execution.",
   date: "May 28, 2024",
   readTime: "8 min read",
   category: "Company",

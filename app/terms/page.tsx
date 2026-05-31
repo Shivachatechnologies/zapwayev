@@ -60,8 +60,8 @@ Violations may result in account suspension and legal action.`,
   {
     title: "12. Contact",
     content: `ZapwayEV Technologies Pvt. Ltd.
-12th Floor, Prestige Tech Park, Koramangala
-Bengaluru, Karnataka 560034
+WeWork DLF Forum, Cyber City
+DLF Phase 2, Gurugram, Haryana 122002
 Email: legal@zapwayev.in`,
   },
 ];

@@ -67,7 +67,7 @@ export default function ContactPage() {
                 title: "Visit Us",
                 color: "text-green-500",
                 bg: "bg-green-100 dark:bg-green-900/30",
-                lines: ["ZapwayEV Technologies Pvt. Ltd.", "91springboard, 7th Block", "Koramangala, Bengaluru 560034"],
+                lines: ["ZapwayEV Technologies Pvt. Ltd.", "WeWork DLF Forum, Cyber City", "DLF Phase 2, Gurugram 122002"],
               },
               {
                 icon: Mail,
@@ -114,7 +114,7 @@ export default function ContactPage() {
                 <div className="w-10 h-10 rounded-full bg-gradient-to-br from-green-500 to-blue-500 flex items-center justify-center mx-auto mb-2 shadow-lg">
                   <Zap className="w-5 h-5 text-white" fill="white" />
                 </div>
-                <p className="text-xs font-medium text-gray-600 dark:text-gray-400">Koramangala, Bengaluru</p>
+                <p className="text-xs font-medium text-gray-600 dark:text-gray-400">Cyber City, Gurugram</p>
               </div>
             </div>
           </motion.div>

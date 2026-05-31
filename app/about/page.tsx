@@ -38,24 +38,24 @@ const team = [
 
 const timeline = [
   {
-    year: "2021",
+    year: "2024",
     event: "Founded",
-    desc: "ZapwayEV was founded in Bengaluru with a mission to accelerate India's EV adoption.",
-  },
-  {
-    year: "2022",
-    event: "Seed Round",
-    desc: "Raised ₹12 Cr seed from Blume Ventures and Kalaari Capital. Launched in Bengaluru.",
-  },
-  {
-    year: "2023",
-    event: "Series A",
-    desc: "Raised ₹80 Cr Series A. Expanded to 20 cities, crossed 1,000 charging points.",
+    desc: "ZapwayEV was founded in Gurgaon with a bold mission — make EV charging as easy as mobile data across India.",
   },
   {
     year: "2024",
-    event: "Scale",
-    desc: "10,000+ charging points, 50+ cities, 85,000+ users. India's fastest-growing EV network.",
+    event: "MVP Launch",
+    desc: "Launched the first version of the ZapwayEV app in Delhi NCR. First 100 charging stations onboarded.",
+  },
+  {
+    year: "2025",
+    event: "Early Traction",
+    desc: "Growing fast across NCR. Expanding station network, building the driver community, and preparing for institutional funding.",
+  },
+  {
+    year: "Next",
+    event: "Pan-India Expansion",
+    desc: "Vision: 10,000+ charging points across 50 Indian cities. Currently in active conversations with investors.",
   },
 ];
 
@@ -90,7 +90,7 @@ const values = [
   },
 ];
 
-const backers = ["Blume Ventures", "Kalaari Capital", "Accel India", "SIDBI Ventures", "Climate Angels", "Mela Ventures"];
+const backers = ["Seeking Series Seed", "EV-focused Angels", "Climate Tech Investors", "Clean Energy VCs"];
 
 export default function AboutPage() {
   return (
@@ -109,7 +109,7 @@ export default function AboutPage() {
               <span className="gradient-text">Electric Future</span>
             </h1>
             <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto leading-relaxed">
-              We started ZapwayEV because we experienced the frustration of range anxiety first-hand. Today, we&apos;re on a mission to make EV charging as seamless and ubiquitous as mobile data in India.
+              We started ZapwayEV because we experienced the frustration of range anxiety first-hand. Based in Gurgaon, we&apos;re on a mission to make EV charging as seamless and ubiquitous as mobile data in India.
             </p>
           </motion.div>
         </Container>
@@ -239,7 +239,7 @@ export default function AboutPage() {
       {/* Backers */}
       <section className="py-16 bg-gray-50 dark:bg-gray-900/50">
         <Container>
-          <h2 className="text-2xl font-bold text-center text-gray-900 dark:text-white mb-8">Backed By</h2>
+          <h2 className="text-2xl font-bold text-center text-gray-900 dark:text-white mb-8">Investment Opportunity</h2>
           <div className="flex flex-wrap justify-center gap-4 max-w-3xl mx-auto">
             {backers.map((backer) => (
               <div key={backer} className="px-6 py-3 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-xl text-sm font-semibold text-gray-700 dark:text-gray-300">

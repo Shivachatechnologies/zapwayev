@@ -113,7 +113,7 @@ export function Footer() {
 
         {/* Copyright */}
         <div className="mt-8 pt-6 border-t border-gray-800 text-center text-sm text-gray-500">
-          © 2024 ZapwayEV Technologies Pvt. Ltd. All rights reserved. Made with{" "}
+          © 2025 ZapwayEV Technologies Pvt. Ltd. All rights reserved. Headquartered in Gurugram, India. Made with{" "}
           <span className="text-green-500">♥</span> in India.
         </div>
       </div>

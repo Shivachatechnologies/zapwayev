@@ -101,7 +101,7 @@ export default function CareersPage() {
               <br />with Us
             </h1>
             <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto leading-relaxed mb-8">
-              Join a mission-driven team working to make EV charging as easy as connecting to WiFi. We&apos;re 60+ people across Bengaluru, Mumbai, and Delhi — and growing fast.
+              Join a mission-driven founding team working to make EV charging as easy as connecting to WiFi. We&apos;re an early-stage startup based in Gurgaon — scrappy, fast-moving, and building something that matters.
             </p>
             <Button variant="primary" size="lg" href="#open-roles">
               See Open Roles <ArrowRight className="ml-2 w-5 h-5" />
@@ -115,10 +115,10 @@ export default function CareersPage() {
         <Container>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-white text-center">
             {[
-              { num: "60+", label: "Team Members" },
+              { num: "Early", label: "Stage" },
               { num: "4.8★", label: "Glassdoor Rating" },
-              { num: "₹X Cr", label: "Funding Raised" },
-              { num: "3", label: "Cities with Offices" },
+              { num: "Seed", label: "Raising Now" },
+              { num: "Gurgaon", label: "Headquarters" },
             ].map((s) => (
               <div key={s.label}>
                 <p className="text-3xl font-black">{s.num}</p>
