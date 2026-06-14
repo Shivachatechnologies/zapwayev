@@ -14,7 +14,7 @@ const driverBenefits = [
   "24/7 in-app support",
 ];
 
-const hostBenefits = [
+const partnerBenefits = [
   "Easy installation support",
   "Earn ₹8–15 per kWh",
   "Remote monitoring dashboard",
@@ -83,7 +83,7 @@ export function DriversVsHosts() {
                 Turn your idle charger into a passive income stream. Become a ZapwayEV charging partner today.
               </p>
               <ul className="space-y-3 mb-8">
-                {hostBenefits.map((benefit) => (
+                {partnerBenefits.map((benefit) => (
                   <li key={benefit} className="flex items-center gap-3">
                     <CheckCircle className="w-5 h-5 text-blue-500 flex-shrink-0" />
                     <span className="text-gray-700 dark:text-gray-300 text-sm">{benefit}</span>
