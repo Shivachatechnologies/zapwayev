@@ -5,10 +5,10 @@ import { motion, useInView } from "framer-motion";
 import { Container } from "@/components/ui/Container";
 
 const stats = [
-  { value: 2.4, suffix: "M+ kWh", label: "Energy Delivered", prefix: "" },
-  { value: 18500, suffix: " Tonnes", label: "CO₂ Saved", prefix: "" },
-  { value: 85000, suffix: "+", label: "Active Users", prefix: "" },
-  { value: 10000, suffix: "+", label: "Charging Points", prefix: "" },
+  { value: 1.5, suffix: "M+", label: "EVs Sold in India (FY24)", prefix: "" },
+  { value: 49, suffix: "%", label: "YoY EV Sales Growth", prefix: "" },
+  { value: 12000, suffix: "+", label: "Public Charging Stations in India", prefix: "" },
+  { value: 30, suffix: "%", label: "Target EV Penetration by 2030", prefix: "" },
 ];
 
 function Counter({
@@ -45,7 +45,7 @@ function Counter({
   const formatted =
     value >= 10000
       ? Math.round(count).toLocaleString("en-IN")
-      : value < 100
+      : !Number.isInteger(value)
       ? count.toFixed(1)
       : Math.round(count).toLocaleString("en-IN");
 
@@ -76,7 +76,7 @@ export function Stats() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
         >
-          Our impact so far
+          India's EV Revolution
         </motion.p>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
           {stats.map((stat, i) => (

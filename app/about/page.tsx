@@ -136,10 +136,10 @@ export default function AboutPage() {
             >
               <div className="grid grid-cols-2 gap-6">
                 {[
-                  { num: "10,000+", label: "Charging Points" },
-                  { num: "50+", label: "Cities" },
-                  { num: "85,000+", label: "Active Users" },
-                  { num: "18,500T", label: "CO₂ Saved" },
+                  { num: "1.5M+", label: "EVs Sold in India (FY24)" },
+                  { num: "49%", label: "YoY EV Sales Growth" },
+                  { num: "12,000+", label: "Charging Stations in India" },
+                  { num: "30% by 2030", label: "Target EV Penetration" },
                 ].map((s) => (
                   <div key={s.label}>
                     <p className="text-3xl font-black">{s.num}</p>

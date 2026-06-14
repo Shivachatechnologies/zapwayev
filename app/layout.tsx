@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "ZapwayEV — Charge Smarter. Drive Further.",
   description:
-    "ZapwayEV connects EV drivers to 10,000+ smart charging stations across 50+ cities in India. Find, plug, and pay — all from one app.",
+    "ZapwayEV connects EV drivers to smart charging stations across India. Find, plug, and pay — all from one app.",
   keywords: [
     "EV charging",
     "electric vehicle charging",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "ZapwayEV — Charge Smarter. Drive Further.",
     description:
-      "India's fastest-growing EV charging network. 10,000+ stations, 50+ cities, 99.9% uptime.",
+      "India's newest smart EV charging network. Find, plug, and pay — all from one app.",
     type: "website",
     siteName: "ZapwayEV",
   },

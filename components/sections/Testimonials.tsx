@@ -40,7 +40,7 @@ export function Testimonials() {
     <section className="section-padding bg-white dark:bg-gray-950">
       <Container>
         <SectionHeading
-          badge="Loved by 85,000+ Users"
+          badge="Trusted by Early Adopters"
           title="Real Stories from "
           highlight="Real Drivers"
           subtitle="See why EV drivers and charger hosts across India trust ZapwayEV."

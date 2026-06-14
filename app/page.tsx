@@ -3,6 +3,7 @@ import { Features } from "@/components/sections/Features";
 import { HowItWorks } from "@/components/sections/HowItWorks";
 import { Stats } from "@/components/sections/Stats";
 import { DriversVsHosts } from "@/components/sections/DriversVsHosts";
+import { Benefits } from "@/components/sections/Benefits";
 import { PricingPreview } from "@/components/sections/PricingPreview";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { FAQ } from "@/components/sections/FAQ";
@@ -16,6 +17,7 @@ export default function HomePage() {
       <HowItWorks />
       <Stats />
       <DriversVsHosts />
+      <Benefits />
       <PricingPreview />
       <Testimonials />
       <FAQ />

@@ -9,7 +9,7 @@ import { ChevronDown } from "lucide-react";
 const faqs = [
   {
     q: "How do I find a charging station near me?",
-    a: "Open the ZapwayEV app and tap 'Find Stations'. The map will show all available charging stations in real-time near your GPS location. You can filter by connector type, charging speed (AC/DC), and availability. We currently cover 50+ cities across India.",
+    a: "Open the ZapwayEV app and tap 'Find Stations'. The map will show all available charging stations in real-time near your GPS location. You can filter by connector type, charging speed (AC/DC), and availability. We're live across Gurgaon and Delhi NCR, expanding rapidly.",
   },
   {
     q: "What EV brands does ZapwayEV support?",
@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     q: "Is ZapwayEV available in my city?",
-    a: "We currently operate in 50+ cities including Bengaluru, Mumbai, Delhi NCR, Hyderabad, Chennai, Pune, Ahmedabad, Kolkata, Jaipur, Kochi, and many more. We're expanding rapidly — if your city isn't covered, you can join our waitlist and we'll notify you when we launch there.",
+    a: "We're currently live in Gurgaon and expanding across Delhi NCR. We're growing fast — if your city isn't covered yet, you can join our waitlist and we'll notify you the moment we launch there.",
   },
   {
     q: "What payment methods are accepted?",

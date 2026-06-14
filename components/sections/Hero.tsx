@@ -6,10 +6,10 @@ import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
 
 const trustItems = [
-  "10,000+ Charging Points",
-  "50+ Cities",
-  "99.9% Uptime",
-  "4.8★ App Rating",
+  "1.5M+ EVs on Indian Roads",
+  "49% YoY EV Growth in India",
+  "12,000+ Charging Stations Nationwide",
+  "Gurgaon HQ",
 ];
 
 const fadeUp = {
@@ -64,8 +64,8 @@ export function Hero() {
               variants={fadeUp}
               className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed mb-8 max-w-xl mx-auto lg:mx-0"
             >
-              ZapwayEV connects drivers to 10,000+ smart charging stations
-              across India. Find the nearest charger, plug in, and pay — all
+              ZapwayEV connects EV drivers to smart charging stations
+              across India&apos;s fast-growing EV network. Find the nearest charger, plug in, and pay — all
               from one powerful app. Zero range anxiety, always.
             </motion.p>
 
@@ -206,7 +206,7 @@ function HeroIllustration() {
           <div className="flex items-center justify-between">
             <div>
               <p className="text-xs text-gray-500 dark:text-gray-400">Nearest Station</p>
-              <p className="font-bold text-gray-900 dark:text-gray-100 text-sm">Koramangala, Bengaluru</p>
+              <p className="font-bold text-gray-900 dark:text-gray-100 text-sm">Cyber City, Gurugram</p>
               <p className="text-xs text-green-600 dark:text-green-400 mt-0.5">● Available now • 22 kW AC</p>
             </div>
             <motion.div

@@ -39,7 +39,7 @@ export function Newsletter() {
           </div>
 
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            Join 85,000+ EV Enthusiasts
+            Join India&apos;s EV Charging Revolution
           </h2>
           <p className="text-green-100 text-lg mb-8">
             Get charging tips, new station alerts, and exclusive offers delivered to your inbox. No spam, ever.

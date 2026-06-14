@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/Button";
 import { Zap, Calendar, Clock, ArrowRight, Tag } from "lucide-react";
 
 const featuredPost = {
-  title: "How ZapwayEV Built a 10,000-Point Charging Network in 3 Years",
+  title: "Inside ZapwayEV: Building India's Next EV Charging Network from Scratch",
   excerpt:
     "From a single charging station in Cyber City, Gurgaon to a growing network — the story of infrastructure, partnerships, and relentless execution.",
   date: "May 28, 2024",
@@ -46,7 +46,7 @@ const posts = [
   },
   {
     title: "ZapwayEV Crosses 2 Million kWh Delivered — A Milestone in Green Energy",
-    excerpt: "Two million kilowatt-hours. That's the equivalent of planting 18,500 trees. We're just getting started.",
+    excerpt: "Every kWh delivered through ZapwayEV is a step toward cleaner air. Here's how we're tracking our environmental impact from day one.",
     date: "April 20, 2024",
     readTime: "3 min read",
     category: "Company",

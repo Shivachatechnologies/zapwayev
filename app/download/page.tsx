@@ -11,7 +11,7 @@ const features = [
   { icon: Route, label: "Route Planning", desc: "Plan road trips with charging stops built in." },
   { icon: Wifi, label: "Works Offline", desc: "Saved stations work without mobile data." },
   { icon: Shield, label: "Secure & Private", desc: "Bank-grade security. Zero data selling." },
-  { icon: Star, label: "4.8 Rating", desc: "Loved by 85,000+ EV drivers across India." },
+  { icon: Star, label: "Built for India", desc: "Designed for India's EV drivers and charging needs." },
 ];
 
 const screenshots = [
@@ -77,9 +77,9 @@ export default function DownloadPage() {
 
               <div className="flex items-center gap-6 text-sm text-gray-500 dark:text-gray-400">
                 <span className="flex items-center gap-1">
-                  <Star className="w-4 h-4 text-yellow-400" fill="currentColor" /> 4.8 / 5
+                  <Star className="w-4 h-4 text-yellow-400" fill="currentColor" /> New App
                 </span>
-                <span>85,000+ downloads</span>
+                <span>Now Live in Gurgaon</span>
                 <span>Free · No ads</span>
               </div>
             </motion.div>

@@ -11,7 +11,7 @@ const openRoles = [
     dept: "Engineering",
     location: "Bengaluru (Hybrid)",
     type: "Full-time",
-    desc: "Build and scale the charging network APIs powering 85,000+ users. Node.js, PostgreSQL, Redis.",
+    desc: "Build and scale the charging network APIs powering our growing user base. Node.js, PostgreSQL, Redis.",
   },
   {
     title: "iOS / Android Developer",
@@ -116,7 +116,7 @@ export default function CareersPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-white text-center">
             {[
               { num: "Early", label: "Stage" },
-              { num: "4.8★", label: "Glassdoor Rating" },
+              { num: "4", label: "Founders" },
               { num: "Seed", label: "Raising Now" },
               { num: "Gurgaon", label: "Headquarters" },
             ].map((s) => (
