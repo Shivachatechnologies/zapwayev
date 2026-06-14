@@ -80,7 +80,7 @@ export function DriversVsHosts() {
               </div>
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">For Hosts</h3>
               <p className="text-gray-600 dark:text-gray-400 text-sm mb-6">
-                Turn your idle charger into a passive income stream. Join 5,000+ hosts already earning.
+                Turn your idle charger into a passive income stream. Become a ZapwayEV charging partner today.
               </p>
               <ul className="space-y-3 mb-8">
                 {hostBenefits.map((benefit) => (
