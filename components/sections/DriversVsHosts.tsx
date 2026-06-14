@@ -19,7 +19,7 @@ const hostBenefits = [
   "Earn ₹8–15 per kWh",
   "Remote monitoring dashboard",
   "Instant payouts weekly",
-  "Dedicated host manager",
+  "Dedicated partner manager",
 ];
 
 export function DriversVsHosts() {
@@ -29,7 +29,7 @@ export function DriversVsHosts() {
         <SectionHeading
           badge="Built for Everyone"
           title="For Drivers & "
-          highlight="Hosts"
+          highlight="Charging Partners"
           subtitle="Whether you drive an EV or own a charger, ZapwayEV has something powerful for you."
         />
 
@@ -78,7 +78,7 @@ export function DriversVsHosts() {
               <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-blue-500 to-blue-400 flex items-center justify-center mb-4 shadow-lg shadow-blue-500/30">
                 <Zap className="w-6 h-6 text-white" fill="white" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">For Hosts</h3>
+              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">For Charging Partners</h3>
               <p className="text-gray-600 dark:text-gray-400 text-sm mb-6">
                 Turn your idle charger into a passive income stream. Become a ZapwayEV charging partner today.
               </p>
@@ -91,7 +91,7 @@ export function DriversVsHosts() {
                 ))}
               </ul>
               <Button variant="outline" size="md" href="/contact">
-                Become a Host
+                Become a Charging Partner
               </Button>
             </div>
           </motion.div>
